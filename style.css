@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Calibri;
+}
+a {
+  color: #a1a1a1;
+}
+.invision-logo {
+  display: block;
+  position: absolute;
+  z-index: 1;
+  top: 38px;
+  left: 5%;
+  width: 40px;
+  height: 40px;
+  background: url(invision-logo-gray.png);
+  background-size: 100%;
+  color: transparent;
+  font-size: 1px;
+}
+.main-panel-text {
+  margin-right: 20px;
+}
+.main-panel-button {
+  border: 1px solid #7f7f7f;
+  padding: 10px 20px;
+  border-radius: 100px;
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+}
+.main-panel-button:active {
+  background-color: #fe186f;
+  color: #fff;
+  border: none;
+}
+.main-panel {
+  position: absolute;
+  top: 38px;
+  right: 5%;
+}
+.main-content {
+  padding: 100px 0;
+}
+.headline {
+  font-weight: 400;
+  margin: auto;
+  max-width: 540px;
+  margin-bottom: 50px;
+  font-size: 28px;
+}
+.subheadline {
+  font-size: 16px;
+  display: block;
+  font-weight: 200;
+  margin-top: 10px;
+}
+.main-pannel-form,
+.form-label,
+.form-input {
+  display: block;
+}
+.main-pannel-form {
+  width: 540px;
+  margin: auto;
+}
+.form-label {
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+.form-input {
+  width: 538px;
+  border: 0.5px solid #dddddd;
+  border-radius: 10px;
+  height: 50px;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+.form-input:focus {
+  outline: none;
+  border-color: #7f7f7f;
+}
+.form-input::placeholder {
+  color: #a1a1a1;
+}
+.form-button {
+  display: block;
+  background-color: #fe186f;
+  color: white;
+  text-transform: uppercase;
+  padding: 20px 30px;
+  border: none;
+  font-weight: 700;
+  border-radius: 100px;
+  width: 200px;
+  margin: auto;
+}
+.form-button:active {
+  outline: none;
+}
